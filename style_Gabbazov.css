@@ -1,0 +1,63 @@
+body { font-family: Helvetica, salf-serif, arial;
+       font-style: normal;
+       font-weight: normal;
+       width: 970px;
+       margin: 0 auto;           
+}
+.menu { display: inline-block;
+        padding:10px;
+}
+a {text-decoration: none;
+   padding: 35px;
+}
+a:hover {text-decoration: underline;
+}
+a:visited {color: blue;
+}  
+h1 {   color: olive; 
+       text-shadow: -1px 0 1px white, 0 -1px 1px white, 0 1px 1px white, 1px 0 1px white, 0 0 8px white, 0 0 8px white, 0 0 8px white, 2px 2px 3px black;
+       font-size: 50px;
+       font-weight: bold;
+       text-align: center;    
+}
+h2 {   color: gray;
+       text-align:justify;
+       font-size: 20px;
+       font-stretch: semi-condensed;    
+}
+.textbox {  margin-left: 250px;
+            margin-top:-450px;
+}
+.coa img {  position:relative;
+            display: inline-block;
+            height: 210px;
+            width: 180px;  
+}
+.fullwithimg { width:970px;
+}
+.name-list {color: black;
+            font-size: 30px;
+            font-weight: bold;
+}
+hr {width="70%"
+}
+table  {   font-weight: bold;
+           width: 100%;
+           border: 2px solid olive;        
+}
+tr .name-list  {font-size: 20px;
+}
+td { border: 1px solid olive;  
+}
+.form {    margin: 0 170px;
+}
+.center { display: block;
+          margin: 5px 0 0 335px;
+          height: 95px;
+          width: 215px;
+          background-size: contain;
+}
+.left { float:left;
+}
+.right { float:right;
+}
